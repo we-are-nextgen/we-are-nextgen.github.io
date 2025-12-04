@@ -312,10 +312,11 @@ background: #141414;
 #features .media.service-box:first-child {
   margin-top: 80px;
 }
-#services {
+#incubators {
   padding: 140px 0 75px;
 }
 .media.service-box {
+  /* top | right | bottom | left */
   margin: 25px 0 36px;
   padding: 20px 15px 10px;
   background: #FFFFFF;
@@ -339,7 +340,7 @@ background: #141414;
   position: relative;
   border-bottom: 0;
   padding: 14px;
-  margin: 60px 10px 0 -25px;
+  margin: 40px 10px 0 -25px;
   position: relative;
   bottom: 44px;
   left: 14px;
@@ -641,13 +642,13 @@ color: rgb(40, 141, 203);
 	background: #fff;
 }
 
-#about {
+#tech {
   padding: 140px 0;
   background: #F7F7F7;
   color: #4F4F4F;
   position: relative;
 }
-section#about:before {
+section#tech:before {
     content: '';
     position: absolute;
     top: 0;
@@ -661,7 +662,7 @@ section#about:before {
     -webkit-transform: skewY(-3deg);
     transform: skewY(14deg);
  }
-#about h2{
+#tech h2{
 color: #4F4F4F;
 }
 .download-now {
