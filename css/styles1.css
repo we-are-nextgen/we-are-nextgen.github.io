@@ -23,13 +23,13 @@
 #itpro-banner{
   background: #FFFFFF no-repeat 100% bottom;
   overflow: hidden;
-  height: 4000px;
+  height: 3080px;
   }
 #itpro-banner h2 {
   margin-top: 180px;
   font-size: 39px;
   line-height: 49px;  
-  color: #fff;
+  color: #4c4949;
 }
 #itpro-banner.banner-inner h2 > span {
   color: #45aed6;
@@ -57,13 +57,17 @@
 /* Recruiters */
 #recruiter-banner{
   overflow: hidden;
-  height: 2000px;
+  height: 1750px;
   color: #4C4C4C;
+}
+ul.engagement-path {
+  list-style-type: none;
 }
 
 /* Startups */
-#startup-banner{
+#startups-banner{
   overflow: hidden;
   height: 2000px;
-  color: #4e4646;
+  color: #4C4C4C;
+  background-color: #d5d2d2;
 }
