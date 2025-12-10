@@ -67,7 +67,10 @@ ul.engagement-path {
 /* Startups */
 #startups-banner{
   overflow: hidden;
-  height: 2000px;
+  height: 950px;
   color: #4C4C4C;
   background-color: #d5d2d2;
+}
+ol.startups-list {
+  color: #000;
 }
