@@ -3,7 +3,6 @@
 /* IT Professionals */
 #itpro-banner{
   overflow: hidden;
-  height:650px;
   color: #4C4C4C;
 }
 #itpro-banner.item {
@@ -23,10 +22,11 @@
 #itpro-banner{
   background: #FFFFFF no-repeat 100% bottom;
   overflow: hidden;
-  height: 3080px;
-  }
+  padding-top: 50px;
+  
+}
 #itpro-banner h2 {
-  margin-top: 180px;
+  margin-top: 10px;
   font-size: 39px;
   line-height: 49px;  
   color: #4c4949;
