@@ -1,6 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
 /* More information page */
 /* IT Professionals */
+
+#itpro-dom-banner {
+  background: #FFFFFF url('../images/banner/bg2.png') no-repeat 100% bottom;
+}
+
 #itpro-banner{
   overflow: hidden;
   color: #4C4C4C;
@@ -22,7 +27,7 @@
 #itpro-banner{
   background: #FFFFFF no-repeat 100% bottom;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 20px;
   
 }
 #itpro-banner h3 {
