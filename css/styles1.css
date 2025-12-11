@@ -25,13 +25,13 @@
   padding-top: 50px;
   
 }
-#itpro-banner h2 {
+#itpro-banner h3 {
   margin-top: 10px;
-  font-size: 39px;
+  /* font-size: 39px; */
   line-height: 49px;  
   color: #4c4949;
 }
-#itpro-banner.banner-inner h2 > span {
+#itpro-banner.banner-inner h3 > span {
   color: #45aed6;
 }
 #itpro-banner.banner-inner .btn {
@@ -44,33 +44,34 @@
   background: #085C98;
   color: #F4F4F4;
 }
-#itpro-text h2 {
+#itpro-text h3 {
   margin-top: 0
 }
-
+ul.eng-dom {
+  list-style: none;
+}
+h1.container {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 /* #itpro-text .btn {
   margin-top: 40px;
   color: #085C98;
   background: #fff;
 } */
 
-/* Recruiters */
-#recruiter-banner{
+/* Incubators */
+#incubator-banner {
   overflow: hidden;
-  height: 1750px;
-  color: #4C4C4C;
+  /* height: 1750px;
+  color: #4C4C4C; */
 }
 ul.engagement-path {
   list-style-type: none;
 }
+ol.inc-dom {
+  list-style: '→';
+}
+ul.incubator-vision {
+  list-style: square;
+}
 
-/* Startups */
-#startups-banner{
-  overflow: hidden;
-  height: 950px;
-  color: #4C4C4C;
-  background-color: #d5d2d2;
-}
-ol.startups-list {
-  color: #000;
-}
