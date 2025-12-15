@@ -52,9 +52,12 @@ jQuery(function($) {
         'use strict';
         var $portfolio_selectors = $('.portfolio-filter >li>a');
         var $portfolio = $('.portfolio-items');
+        var initialFilter = $portfolio_selectors.filter('.active').attr('data-filter');
+
         $portfolio.isotope({
             itemSelector: '.portfolio-item',
-            layoutMode: 'fitRows'
+            layoutMode: 'fitRows',
+            filter: initialFilter
         });
 
         $portfolio_selectors.on('click', function() {
