@@ -394,7 +394,9 @@ color: #141414;
   text-align: center;
   background: #343434;
   color: #282828;
-  padding: 0 0 4px 0;
+  padding: 0 0 2px 0;
+  box-shadow: 5px 2px 5px grey;
+  box-shadow: ;
   font-weight: normal;
 }
 #portfolio .portfolio-item .portfolio-item-inner h4{
@@ -410,13 +412,15 @@ color: #62BDF0;
   bottom: 0;
   left: 0;
   right: 0;
-  text-align: center;
+  text-align: left;
   padding: 18px 0 0;
   background: rgba(52, 52, 52, 0.87);
   color: #3E9ED4;
   height:100%;
-  text-align: center;
   transition: all .2s ease-in-out;
+}
+.portfolio-info h3 {
+  text-align: center;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
   font-size: 16px;
