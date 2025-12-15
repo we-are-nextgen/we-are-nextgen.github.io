@@ -438,7 +438,7 @@ color: #62BDF0;
   display:block;
   -webkit-box-shadow: 0 0 0 1px #fff;
   text-align: center;
- margin: 15px auto;
+  margin: 15px auto;
   background: rgba(255, 255, 255, 0.07);
   border-radius: 50%;
 }
@@ -1007,11 +1007,11 @@ display: block;
 padding: 7px 15px;
 margin: 5px 2px;
 }
-	#portfolio .portfolio-item {
+#portfolio .portfolio-item {
 	width: 48.9%;
 	padding: 8px;
-	}
-	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
 width: 28px;
 height: 24px;
 line-height: 24px; 
